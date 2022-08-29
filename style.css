@@ -1,11 +1,14 @@
-* {
-  margin: 0;
+p::selection {
+  background-color: #00ccb1;
+  color: white;
+}
+.content {
+  padding: 0 18vw;
+}
+.content2 {
   padding: 0;
 }
 
-body {
-  padding: 0 18vw;
-}
 header {
   display: flex;
   justify-content: space-between;
@@ -122,4 +125,137 @@ svg:hover path {
 .sponsors p {
   font-size: 25px;
   color: #00ccb1;
+}
+.main {
+  background-color: #00ccb11e;
+  display: flex;
+  background-image: url("https://www.docplanner.com/img/logo.png");
+  background-repeat: no-repeat;
+  background-position: left 500px;
+  margin: auto;
+}
+div .card-white {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 75%;
+  border-radius: 5px;
+  padding: 50px 30px;
+}
+.right {
+  display: flex;
+  justify-content: center;
+  padding: 4vw 0;
+  width: 80%;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 8vw 5vw;
+}
+.duo-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2vw;
+}
+.second {
+  padding: 5vw 0;
+}
+.card-white span {
+  font-size: 20px;
+  font-weight: 100;
+  text-transform: capitalize;
+  color: #00ccb1;
+}
+.left span {
+  font-size: 50px;
+  text-transform: capitalize;
+  color: #00ccb1;
+  font-weight: 100;
+}
+
+.card-white p {
+  font-size: 13px;
+}
+.case-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vw;
+  padding: 5vw 20vw;
+}
+.case-text span {
+  font-size: 30px;
+  text-transform: capitalize;
+  color: #00ccb1;
+}
+.content1 {
+  width: 500px;
+}
+.footer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2vw;
+}
+.case-text p {
+  font-size: 17px;
+  font-weight: 100;
+}
+.card-footer {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  background-color: white;
+  border: none;
+  gap: 1vw;
+}
+.card-footer div {
+  background-color: white;
+  padding: 2px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.card-footer button {
+  background-color: #3d83df;
+  border: transparent;
+  color: white;
+  border-radius: 3px;
+  color: white;
+}
+.footer-end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vw;
+  padding: 40px;
+}
+.footer-end span {
+  font-size: 30px;
+  font-weight: 100;
+}
+.footer-end button {
+  background-color: #3d83df;
+  font-size: 15px;
+  border: transparent;
+  border-radius: 3px;
+  color: white;
+  gap: 2vw;
+}
+
+.endish {
+  border-top: #1e21262e solid 1px;
+  gap: 5vw;
+  padding: 40px;
+}
+.endish p {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  font-size: 10px;
+  color: #747474;
 }
